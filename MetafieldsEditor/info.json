@@ -1,0 +1,12 @@
+{
+	"name": "Metafields Editor",
+	"handle": "MetafieldsEditor",
+	"info": "Edit metafields for products, collections, store and more",
+	"settings": true,
+	"docs": "https://github.com/sellfino/app-metafields-editor",
+	"author": {
+		"name": "Lucas • Sellfino",
+		"url": "https://www.sellfino.com"
+	},
+  "version": "1.0.0"
+}
