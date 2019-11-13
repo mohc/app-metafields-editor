@@ -19,7 +19,7 @@
           </div>
           <div class="row">
             <div class="col-12">
-              <button type="button" class="btn mb-1" v-for="tab in tabs" :class="{ 'btn-secondary' : tab.handle != tabActive, 'btn-info' : tab.handle == tabActive }" @click="load(tab.handle)">{{ tab.name }}</button>
+              <button type="button" class="btn mb-1" v-for="tab in tabs" :class="{ 'btn-secondary' : tab.handle != tabActive, 'btn-info pointer-disabled' : tab.handle == tabActive }" @click="load(tab.handle)">{{ tab.name }}</button>
             </div>
           </div>
           <div class="info text-neutral text-sm font-italic"><i class="fas fa-info-circle mr-2"></i> Select resource first to show the metafields</div>
@@ -187,6 +187,12 @@ module.exports = {
       }
 
       if (handle == 'shop') {
+
+        this.list = []
+        this.loading = false
+        this.tabActive = handle
+        this.modal.title = 'Shop'
+        this.modal.id = Math.random()
 
       } else {
 
