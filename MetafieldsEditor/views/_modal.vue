@@ -111,8 +111,7 @@
         </div>
       </div>
     </div>
-    <div class="modal-backdrop fade" :class="{ show: id }" @click="$parent.modal.id = ''"></div>
-
+    <div class="modal-backdrop fade" :class="{ show: id }"></div>
 
     <component is="inc-MetafieldsEditor-add" :handle="handle" :id="id" :active="add" />
 
