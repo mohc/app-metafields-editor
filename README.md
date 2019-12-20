@@ -5,6 +5,10 @@
 ## Metafields Editor
 Edit metafields for products, collections, store and more.
 
+## Screenshots
+
+<a href="https://sellfino.com/images/screens/meta/meta-1.jpg" target="_blank" rel="noopener noreferrer"><img width="30%" src="https://sellfino.com/images/screens/meta/meta-1.jpg"></a> <a href="https://sellfino.com/images/screens/meta/meta-2.jpg" target="_blank" rel="noopener noreferrer"><img width="30%" src="https://sellfino.com/images/screens/meta/meta-2.jpg"></a> <a href="https://sellfino.com/images/screens/meta/meta-3.jpg" target="_blank" rel="noopener noreferrer"><img width="30%" src="https://sellfino.com/images/screens/meta/meta-3.jpg"></a>
+
 ## Sellfino Open Source Shopify App Store
 This is the app for [Sellfino](https://github.com/sellfino/sellfino) platform.
 
